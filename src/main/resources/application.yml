@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+
+  mvc:
+    throw-exception-if-no-handler-found: false
+
+  resources:
+    add-mappings: true
